@@ -36,3 +36,5 @@ The `:work-manager-using-library` is compiled against `androidx.work:work-runtim
 The `:app` is compiled against `androidx.work:work-runtime-ktx:2.9.0`.
 
 The `getInstance()` method in the `WorkManager` class is annotated with `@JvmStatic` which should result in the same API but the compiled code is not compatible.
+
+Issuetracker link: https://issuetracker.google.com/issues/404745554

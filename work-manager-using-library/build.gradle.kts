@@ -23,12 +23,9 @@ android {
 }
 
 dependencies {
-
   implementation(libs.androidx.work.runtime) {
-    implementation(libs.androidx.work.runtime) {
-      version {
-        strictly("2.10.0")
-      }
+    version {
+      strictly("2.10.0")
     }
   }
 }
