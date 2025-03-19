@@ -3,6 +3,8 @@
 ## Problem
 WorkManager 2.10.0 rewrites the WorkManager class in Kotlin. While the change does not require any code changes it is a breaking change as demonstrated by this sample.
 
+If an application is compiled against WorkManager 2.9.0 and a library is compiled against WorkManager 2.10.0, the application will crash with a `NoSuchFieldError` when calling `WorkManager.getInstance(Context: context)`.
+
 Running the app via `./gradlew installDebug` will result in the following exception:
 ```bash
 FATAL EXCEPTION: main (Ask Gemini)
