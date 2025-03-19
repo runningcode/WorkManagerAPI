@@ -3,7 +3,7 @@
 ## Problem
 WorkManager 2.10.0 rewrites the WorkManager class in Kotlin. While the change does not require any code changes it is a breaking change as demonstrated by this sample.
 
-Running the app `./gradlew installDebug` will result in the following exception:
+Running the app via `./gradlew installDebug` will result in the following exception:
 ```bash
 FATAL EXCEPTION: main (Ask Gemini)
  Process: com.example.workmanagerapi, PID: 5697
@@ -30,6 +30,7 @@ FATAL EXCEPTION: main (Ask Gemini)
 ```
 
 The `:work-manager-using-library` is compiled against `androidx.work:work-runtime-ktx:2.10.0`.
+
 The `:app` is compiled against `androidx.work:work-runtime-ktx:2.9.0`.
 
-The getInstance() method in the WorkManager class is annotated with `@JvmStatic` which should result in the same API but the compiled code is not compatible.
+The `getInstance()` method in the `WorkManager` class is annotated with `@JvmStatic` which should result in the same API but the compiled code is not compatible.
