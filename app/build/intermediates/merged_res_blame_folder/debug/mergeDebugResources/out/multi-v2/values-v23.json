@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.workmanagerapi.app-mergeDebugResources-51:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/nelsonosacky/.gradle/caches/8.11.1/transforms/11b963b4ba0d2904ce867ead5948172b/transformed/work-runtime-2.9.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}
